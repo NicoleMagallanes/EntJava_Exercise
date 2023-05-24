@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Sales Calculation</title>
+</head>
+<body>
+	<h1>Employee Sales Calculation</h1>
+	<form action="calculate" method="post">
+		<fieldset>
+			<legend>Employee Information</legend>
+
+			<label for="employeeId">Employee ID:</label> <input type="text"
+				id="employeeId" name="employeeId" required><br>
+			<br> <label for="employeeName">Employee Name:</label> <input
+				type="text" id="employeeName" name="employeeName" required><br>
+			<br>
+		</fieldset>
+
+		<fieldset>
+			<legend>Sales Information</legend>
+
+			<label for="salesCode">Sales Code:</label> <input type="text"
+				id="salesCode" name="salesCode" required><br>
+			<br> <label for="salesAmount">Sales Amount:</label> <input
+				type="text" id="salesAmount" name="salesAmount" required><br>
+			<br>
+		</fieldset>
+		<fieldset>
+			<input type="submit" value="Submit">
+		</fieldset>
+	</form>
+</body>
+</html>
